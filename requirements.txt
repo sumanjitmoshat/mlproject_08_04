@@ -6,4 +6,5 @@ seaborn
 scipy
 catboost
 xgboost
+dill
 #-e .
