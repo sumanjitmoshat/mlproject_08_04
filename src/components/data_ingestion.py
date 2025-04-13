@@ -43,6 +43,6 @@ if __name__ == "__main__":
     data_transformation = DataTransformation()
     train_array,test_array=data_transformation.initiate_data_transformation(train_data,test_data)
     model_trainer = ModelTrainer()
-    model_trainer.initiate_model_trainer(train_array, test_array)
+    print(model_trainer.initiate_model_trainer(train_array, test_array))
     logging.info("Model training completed successfully.")
     
